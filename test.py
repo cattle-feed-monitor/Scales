@@ -1,6 +1,7 @@
 from Phidget22.Phidget import *
 from Phidget22.Devices.VoltageRatioInput import *
 
+print("testing")
 ch1 = VoltageRatioInput()
 ch1.setChannel(1)
 ch1.openWaitForAttachment(1000)
